@@ -47,86 +47,60 @@ local UICorner_14 = Instance.new("UICorner")
 local Other = Instance.new("Folder")
 local CloseButtonUniversal = Instance.new("TextButton")
 local UICorner_15 = Instance.new("UICorner")
-local ButtonInformation_2 = Instance.new("Folder")
-local ButtonInformation_3 = Instance.new("TextButton")
 local UICorner_16 = Instance.new("UICorner")
-local InfoPage = Instance.new("Frame")
-local CloseButtonInfoPage = Instance.new("TextButton")
-local UICorner_17 = Instance.new("UICorner")
-local Information = Instance.new("Folder")
-local FullBright_2 = Instance.new("TextLabel")
-local UICorner_18 = Instance.new("UICorner")
-local ChatBypasser_2 = Instance.new("TextLabel")
-local UICorner_19 = Instance.new("UICorner")
-local AntiCheatBypasser_2 = Instance.new("TextLabel")
-local UICorner_20 = Instance.new("UICorner")
-local GamepassBypasser_2 = Instance.new("TextLabel")
-local UICorner_21 = Instance.new("UICorner")
-local RejoinSameServer_2 = Instance.new("TextLabel")
-local UICorner_22 = Instance.new("UICorner")
-local FirstPersonAimbot = Instance.new("TextLabel")
-local UICorner_23 = Instance.new("UICorner")
-local Esp_2 = Instance.new("TextLabel")
-local UICorner_24 = Instance.new("UICorner")
-local InfiniteYeild = Instance.new("TextLabel")
-local UICorner_25 = Instance.new("UICorner")
-local Explorer_2 = Instance.new("TextLabel")
-local UICorner_26 = Instance.new("UICorner")
-local UICorner_27 = Instance.new("UICorner")
-local UICorner_28 = Instance.new("UICorner")
 local FrameCharacter = Instance.new("Frame")
 local Buttons_2 = Instance.new("Folder")
 local Speed = Instance.new("TextButton")
-local UICorner_29 = Instance.new("UICorner")
+local UICorner_17 = Instance.new("UICorner")
 local input = Instance.new("TextBox")
-local UICorner_30 = Instance.new("UICorner")
+local UICorner_18 = Instance.new("UICorner")
 local JumpPower = Instance.new("TextButton")
-local UICorner_31 = Instance.new("UICorner")
+local UICorner_19 = Instance.new("UICorner")
 local HipHeight = Instance.new("TextButton")
-local UICorner_32 = Instance.new("UICorner")
+local UICorner_20 = Instance.new("UICorner")
 local Other_2 = Instance.new("Folder")
 local CloseButtonCharacter = Instance.new("TextButton")
-local UICorner_33 = Instance.new("UICorner")
-local UICorner_34 = Instance.new("UICorner")
+local UICorner_21 = Instance.new("UICorner")
+local UICorner_22 = Instance.new("UICorner")
 local FrameGame = Instance.new("Frame")
 local Buttons_3 = Instance.new("Folder")
 local InjectGame = Instance.new("TextButton")
-local UICorner_35 = Instance.new("UICorner")
+local UICorner_23 = Instance.new("UICorner")
 local Other_3 = Instance.new("Folder")
 local CloseButtonGame = Instance.new("TextButton")
-local UICorner_36 = Instance.new("UICorner")
+local UICorner_24 = Instance.new("UICorner")
 local Warnings = Instance.new("Folder")
 local Warnning1 = Instance.new("TextLabel")
 local Warnning2 = Instance.new("TextLabel")
-local UICorner_37 = Instance.new("UICorner")
+local UICorner_25 = Instance.new("UICorner")
 local FrameScript = Instance.new("Frame")
 local Buttons_4 = Instance.new("Folder")
 local Load = Instance.new("TextBox")
-local UICorner_38 = Instance.new("UICorner")
+local UICorner_26 = Instance.new("UICorner")
 local Execute = Instance.new("TextButton")
-local UICorner_39 = Instance.new("UICorner")
+local UICorner_27 = Instance.new("UICorner")
 local Other_4 = Instance.new("Folder")
 local CloseButtonScript = Instance.new("TextButton")
-local UICorner_40 = Instance.new("UICorner")
-local UICorner_41 = Instance.new("UICorner")
+local UICorner_28 = Instance.new("UICorner")
+local UICorner_29 = Instance.new("UICorner")
 local FrameInformation = Instance.new("Frame")
 local Labels = Instance.new("Folder")
 local TextLabel = Instance.new("TextLabel")
-local UICorner_42 = Instance.new("UICorner")
+local UICorner_30 = Instance.new("UICorner")
 local Other_5 = Instance.new("Folder")
 local CloseButtonInformation = Instance.new("TextButton")
-local UICorner_43 = Instance.new("UICorner")
-local UICorner_44 = Instance.new("UICorner")
+local UICorner_31 = Instance.new("UICorner")
+local UICorner_32 = Instance.new("UICorner")
 local Menu = Instance.new("Folder")
 local Welcome = Instance.new("Folder")
 local WelcomeFrame = Instance.new("Frame")
 local Loaded_Success = Instance.new("TextLabel")
-local UICorner_45 = Instance.new("UICorner")
+local UICorner_33 = Instance.new("UICorner")
 local Continue = Instance.new("TextLabel")
 local OpenandClose = Instance.new("TextLabel")
 local Close = Instance.new("TextButton")
-local UICorner_46 = Instance.new("UICorner")
-local UICorner_47 = Instance.new("UICorner")
+local UICorner_34 = Instance.new("UICorner")
+local UICorner_35 = Instance.new("UICorner")
 
 --Properties:
 
@@ -208,10 +182,10 @@ ButtonCharacter.Parent = Buttons
 ButtonCharacter.BackgroundColor3 = Color3.fromRGB(116, 116, 116)
 ButtonCharacter.Position = UDim2.new(0.355795085, 0, 0.758064449, 0)
 ButtonCharacter.Size = UDim2.new(0, 106, 0, 35)
-ButtonCharacter.Font = Enum.Font.Highway
+ButtonCharacter.Font = Enum.Font.DenkOne
 ButtonCharacter.Text = "Character"
 ButtonCharacter.TextColor3 = Color3.fromRGB(255, 255, 255)
-ButtonCharacter.TextSize = 14.000
+ButtonCharacter.TextSize = 19.000
 ButtonCharacter.TextWrapped = true
 
 UICorner.Parent = ButtonCharacter
@@ -222,10 +196,10 @@ ButtonGame.BackgroundColor3 = Color3.fromRGB(116, 116, 116)
 ButtonGame.Position = UDim2.new(0.358490586, 0, 0.494623631, 0)
 ButtonGame.Size = UDim2.new(0, 106, 0, 35)
 ButtonGame.Visible = false
-ButtonGame.Font = Enum.Font.Highway
+ButtonGame.Font = Enum.Font.DenkOne
 ButtonGame.Text = "ERROR"
 ButtonGame.TextColor3 = Color3.fromRGB(255, 255, 255)
-ButtonGame.TextSize = 14.000
+ButtonGame.TextSize = 19.000
 ButtonGame.TextWrapped = true
 
 UICorner_2.Parent = ButtonGame
@@ -236,10 +210,10 @@ ButtonUniversal.Active = false
 ButtonUniversal.BackgroundColor3 = Color3.fromRGB(116, 116, 116)
 ButtonUniversal.Position = UDim2.new(0.0377357714, 0, 0.758064449, 0)
 ButtonUniversal.Size = UDim2.new(0, 106, 0, 35)
-ButtonUniversal.Font = Enum.Font.Highway
+ButtonUniversal.Font = Enum.Font.DenkOne
 ButtonUniversal.Text = "Universal"
 ButtonUniversal.TextColor3 = Color3.fromRGB(255, 255, 255)
-ButtonUniversal.TextSize = 14.000
+ButtonUniversal.TextSize = 19.000
 ButtonUniversal.TextWrapped = true
 
 UICorner_3.Parent = ButtonUniversal
@@ -249,10 +223,10 @@ ButtonScript.Parent = Buttons
 ButtonScript.BackgroundColor3 = Color3.fromRGB(116, 116, 116)
 ButtonScript.Position = UDim2.new(0.673854351, 0, 0.758064449, 0)
 ButtonScript.Size = UDim2.new(0, 106, 0, 35)
-ButtonScript.Font = Enum.Font.Highway
+ButtonScript.Font = Enum.Font.DenkOne
 ButtonScript.Text = "Executor"
 ButtonScript.TextColor3 = Color3.fromRGB(255, 255, 255)
-ButtonScript.TextSize = 14.000
+ButtonScript.TextSize = 19.000
 ButtonScript.TextWrapped = true
 
 UICorner_4.Parent = ButtonScript
@@ -262,10 +236,10 @@ ButtonInformation.Parent = Buttons
 ButtonInformation.BackgroundColor3 = Color3.fromRGB(116, 116, 116)
 ButtonInformation.Position = UDim2.new(0.0350404382, 0, 0.494623661, 0)
 ButtonInformation.Size = UDim2.new(0, 106, 0, 35)
-ButtonInformation.Font = Enum.Font.Highway
+ButtonInformation.Font = Enum.Font.DenkOne
 ButtonInformation.Text = "Information"
 ButtonInformation.TextColor3 = Color3.fromRGB(255, 255, 255)
-ButtonInformation.TextSize = 14.000
+ButtonInformation.TextSize = 19.000
 ButtonInformation.TextWrapped = true
 
 UICorner_5.Parent = ButtonInformation
@@ -427,187 +401,7 @@ CloseButtonUniversal.TextWrapped = true
 
 UICorner_15.Parent = CloseButtonUniversal
 
-ButtonInformation_2.Name = "Button Information"
-ButtonInformation_2.Parent = Other
-
-ButtonInformation_3.Name = "Button Information"
-ButtonInformation_3.Parent = ButtonInformation_2
-ButtonInformation_3.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
-ButtonInformation_3.BorderColor3 = Color3.fromRGB(149, 153, 154)
-ButtonInformation_3.Position = UDim2.new(-7.97077082e-05, 0, -0.147866189, 0)
-ButtonInformation_3.Size = UDim2.new(0, 371, 0, 16)
-ButtonInformation_3.Font = Enum.Font.SourceSans
-ButtonInformation_3.Text = "Button Information"
-ButtonInformation_3.TextColor3 = Color3.fromRGB(255, 255, 255)
-ButtonInformation_3.TextScaled = true
-ButtonInformation_3.TextSize = 14.000
-ButtonInformation_3.TextWrapped = true
-
-UICorner_16.Parent = ButtonInformation_3
-
-InfoPage.Name = "Info Page"
-InfoPage.Parent = ButtonInformation_2
-InfoPage.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
-InfoPage.BorderColor3 = Color3.fromRGB(149, 153, 154)
-InfoPage.Position = UDim2.new(7.97733665e-05, 0, -0.00267153978, 0)
-InfoPage.Size = UDim2.new(0, 371, 0, 186)
-InfoPage.Visible = false
-
-CloseButtonInfoPage.Name = "CloseButtonInfoPage"
-CloseButtonInfoPage.Parent = InfoPage
-CloseButtonInfoPage.BackgroundColor3 = Color3.fromRGB(255, 18, 3)
-CloseButtonInfoPage.Position = UDim2.new(0.0242587607, 0, 0.776865005, 0)
-CloseButtonInfoPage.Size = UDim2.new(0, 353, 0, 34)
-CloseButtonInfoPage.Font = Enum.Font.FredokaOne
-CloseButtonInfoPage.Text = "Back"
-CloseButtonInfoPage.TextColor3 = Color3.fromRGB(0, 0, 0)
-CloseButtonInfoPage.TextScaled = true
-CloseButtonInfoPage.TextSize = 14.000
-CloseButtonInfoPage.TextWrapped = true
-
-UICorner_17.Parent = CloseButtonInfoPage
-
-Information.Name = "Information"
-Information.Parent = InfoPage
-
-FullBright_2.Name = "Full Bright"
-FullBright_2.Parent = Information
-FullBright_2.BackgroundColor3 = Color3.fromRGB(116, 116, 116)
-FullBright_2.BorderSizePixel = 0
-FullBright_2.Position = UDim2.new(0.0322652236, 0, 0.0618113875, 0)
-FullBright_2.Size = UDim2.new(0, 100, 0, 31)
-FullBright_2.Font = Enum.Font.SourceSans
-FullBright_2.Text = "Full Bright: Makes Dark Places Lighter"
-FullBright_2.TextColor3 = Color3.fromRGB(205, 205, 205)
-FullBright_2.TextScaled = true
-FullBright_2.TextSize = 14.000
-FullBright_2.TextWrapped = true
-
-UICorner_18.Parent = FullBright_2
-
-ChatBypasser_2.Name = "Chat Bypasser"
-ChatBypasser_2.Parent = Information
-ChatBypasser_2.BackgroundColor3 = Color3.fromRGB(116, 116, 116)
-ChatBypasser_2.BorderSizePixel = 0
-ChatBypasser_2.Position = UDim2.new(0.0322652236, 0, 0.540305972, 0)
-ChatBypasser_2.Size = UDim2.new(0, 100, 0, 31)
-ChatBypasser_2.Font = Enum.Font.SourceSans
-ChatBypasser_2.Text = "Chat Bypasser: Unfilters Chat"
-ChatBypasser_2.TextColor3 = Color3.fromRGB(205, 205, 205)
-ChatBypasser_2.TextScaled = true
-ChatBypasser_2.TextSize = 14.000
-ChatBypasser_2.TextWrapped = true
-
-UICorner_19.Parent = ChatBypasser_2
-
-AntiCheatBypasser_2.Name = "Anti Cheat Bypasser"
-AntiCheatBypasser_2.Parent = Information
-AntiCheatBypasser_2.BackgroundColor3 = Color3.fromRGB(116, 116, 116)
-AntiCheatBypasser_2.BorderSizePixel = 0
-AntiCheatBypasser_2.Position = UDim2.new(0.363801599, 0, 0.0618113577, 0)
-AntiCheatBypasser_2.Size = UDim2.new(0, 100, 0, 31)
-AntiCheatBypasser_2.Font = Enum.Font.SourceSans
-AntiCheatBypasser_2.Text = "Anti Cheat Bypasser: WARNNING IT COULD GET YOU BANNED"
-AntiCheatBypasser_2.TextColor3 = Color3.fromRGB(205, 205, 205)
-AntiCheatBypasser_2.TextScaled = true
-AntiCheatBypasser_2.TextSize = 14.000
-AntiCheatBypasser_2.TextWrapped = true
-
-UICorner_20.Parent = AntiCheatBypasser_2
-
-GamepassBypasser_2.Name = "Gamepass Bypasser"
-GamepassBypasser_2.Parent = Information
-GamepassBypasser_2.BackgroundColor3 = Color3.fromRGB(116, 116, 116)
-GamepassBypasser_2.BorderSizePixel = 0
-GamepassBypasser_2.Position = UDim2.new(0.363801599, 0, 0.314499527, 0)
-GamepassBypasser_2.Size = UDim2.new(0, 100, 0, 31)
-GamepassBypasser_2.Font = Enum.Font.SourceSans
-GamepassBypasser_2.Text = "Game Pass Bypasser: Bypasses gamepasses"
-GamepassBypasser_2.TextColor3 = Color3.fromRGB(205, 205, 205)
-GamepassBypasser_2.TextScaled = true
-GamepassBypasser_2.TextSize = 14.000
-GamepassBypasser_2.TextWrapped = true
-
-UICorner_21.Parent = GamepassBypasser_2
-
-RejoinSameServer_2.Name = "Rejoin Same Server"
-RejoinSameServer_2.Parent = Information
-RejoinSameServer_2.BackgroundColor3 = Color3.fromRGB(116, 116, 116)
-RejoinSameServer_2.BorderSizePixel = 0
-RejoinSameServer_2.Position = UDim2.new(0.363801599, 0, 0.540305972, 0)
-RejoinSameServer_2.Size = UDim2.new(0, 100, 0, 31)
-RejoinSameServer_2.Font = Enum.Font.SourceSans
-RejoinSameServer_2.Text = "Rejoin Same Server: Connects you to the same server you are in"
-RejoinSameServer_2.TextColor3 = Color3.fromRGB(205, 205, 205)
-RejoinSameServer_2.TextScaled = true
-RejoinSameServer_2.TextSize = 14.000
-RejoinSameServer_2.TextWrapped = true
-
-UICorner_22.Parent = RejoinSameServer_2
-
-FirstPersonAimbot.Name = "First Person Aimbot"
-FirstPersonAimbot.Parent = Information
-FirstPersonAimbot.BackgroundColor3 = Color3.fromRGB(116, 116, 116)
-FirstPersonAimbot.BorderSizePixel = 0
-FirstPersonAimbot.Position = UDim2.new(0.698033392, 0, 0.0618113577, 0)
-FirstPersonAimbot.Size = UDim2.new(0, 100, 0, 31)
-FirstPersonAimbot.Font = Enum.Font.SourceSans
-FirstPersonAimbot.Text = "First Person AImbot: Aimbot"
-FirstPersonAimbot.TextColor3 = Color3.fromRGB(205, 205, 205)
-FirstPersonAimbot.TextScaled = true
-FirstPersonAimbot.TextSize = 14.000
-FirstPersonAimbot.TextWrapped = true
-
-UICorner_23.Parent = FirstPersonAimbot
-
-Esp_2.Name = "Esp"
-Esp_2.Parent = Information
-Esp_2.BackgroundColor3 = Color3.fromRGB(116, 116, 116)
-Esp_2.BorderSizePixel = 0
-Esp_2.Position = UDim2.new(0.698033392, 0, 0.314499527, 0)
-Esp_2.Size = UDim2.new(0, 100, 0, 31)
-Esp_2.Font = Enum.Font.SourceSans
-Esp_2.Text = "Esp: Outlines Other players"
-Esp_2.TextColor3 = Color3.fromRGB(205, 205, 205)
-Esp_2.TextScaled = true
-Esp_2.TextSize = 14.000
-Esp_2.TextWrapped = true
-
-UICorner_24.Parent = Esp_2
-
-InfiniteYeild.Name = "Infinite Yeild"
-InfiniteYeild.Parent = Information
-InfiniteYeild.BackgroundColor3 = Color3.fromRGB(116, 116, 116)
-InfiniteYeild.BorderSizePixel = 0
-InfiniteYeild.Position = UDim2.new(0.698033392, 0, 0.540305972, 0)
-InfiniteYeild.Size = UDim2.new(0, 100, 0, 31)
-InfiniteYeild.Font = Enum.Font.SourceSans
-InfiniteYeild.Text = "Infinite Yeild: FE admin commands"
-InfiniteYeild.TextColor3 = Color3.fromRGB(205, 205, 205)
-InfiniteYeild.TextScaled = true
-InfiniteYeild.TextSize = 14.000
-InfiniteYeild.TextWrapped = true
-
-UICorner_25.Parent = InfiniteYeild
-
-Explorer_2.Name = "Explorer"
-Explorer_2.Parent = Information
-Explorer_2.BackgroundColor3 = Color3.fromRGB(116, 116, 116)
-Explorer_2.BorderSizePixel = 0
-Explorer_2.Position = UDim2.new(0.0322652236, 0, 0.314499557, 0)
-Explorer_2.Size = UDim2.new(0, 100, 0, 31)
-Explorer_2.Font = Enum.Font.SourceSans
-Explorer_2.Text = "Explorer: Dex, Workspace"
-Explorer_2.TextColor3 = Color3.fromRGB(205, 205, 205)
-Explorer_2.TextScaled = true
-Explorer_2.TextSize = 14.000
-Explorer_2.TextWrapped = true
-
-UICorner_26.Parent = Explorer_2
-
-UICorner_27.Parent = InfoPage
-
-UICorner_28.Parent = FrameUniversal
+UICorner_16.Parent = FrameUniversal
 
 FrameCharacter.Name = "FrameCharacter"
 FrameCharacter.Parent = Frames
@@ -632,7 +426,7 @@ Speed.TextScaled = true
 Speed.TextSize = 14.000
 Speed.TextWrapped = true
 
-UICorner_29.Parent = Speed
+UICorner_17.Parent = Speed
 
 input.Name = "input"
 input.Parent = Buttons_2
@@ -644,7 +438,7 @@ input.Text = "Insert"
 input.TextColor3 = Color3.fromRGB(205, 205, 205)
 input.TextSize = 14.000
 
-UICorner_30.Parent = input
+UICorner_18.Parent = input
 
 JumpPower.Name = "JumpPower"
 JumpPower.Parent = Buttons_2
@@ -658,7 +452,7 @@ JumpPower.TextScaled = true
 JumpPower.TextSize = 14.000
 JumpPower.TextWrapped = true
 
-UICorner_31.Parent = JumpPower
+UICorner_19.Parent = JumpPower
 
 HipHeight.Name = "HipHeight"
 HipHeight.Parent = Buttons_2
@@ -672,7 +466,7 @@ HipHeight.TextScaled = true
 HipHeight.TextSize = 14.000
 HipHeight.TextWrapped = true
 
-UICorner_32.Parent = HipHeight
+UICorner_20.Parent = HipHeight
 
 Other_2.Name = "Other"
 Other_2.Parent = FrameCharacter
@@ -689,9 +483,9 @@ CloseButtonCharacter.TextScaled = true
 CloseButtonCharacter.TextSize = 14.000
 CloseButtonCharacter.TextWrapped = true
 
-UICorner_33.Parent = CloseButtonCharacter
+UICorner_21.Parent = CloseButtonCharacter
 
-UICorner_34.Parent = FrameCharacter
+UICorner_22.Parent = FrameCharacter
 
 FrameGame.Name = "FrameGame"
 FrameGame.Parent = Frames
@@ -715,7 +509,7 @@ InjectGame.TextColor3 = Color3.fromRGB(205, 205, 205)
 InjectGame.TextSize = 22.000
 InjectGame.TextWrapped = true
 
-UICorner_35.Parent = InjectGame
+UICorner_23.Parent = InjectGame
 
 Other_3.Name = "Other"
 Other_3.Parent = FrameGame
@@ -732,7 +526,7 @@ CloseButtonGame.TextScaled = true
 CloseButtonGame.TextSize = 14.000
 CloseButtonGame.TextWrapped = true
 
-UICorner_36.Parent = CloseButtonGame
+UICorner_24.Parent = CloseButtonGame
 
 Warnings.Name = "Warnings"
 Warnings.Parent = FrameGame
@@ -759,7 +553,7 @@ Warnning2.Text = "WE ARE NOT RESPONSIBLE FOR THE BUGS OF THIS SCRIPT"
 Warnning2.TextColor3 = Color3.fromRGB(255, 34, 0)
 Warnning2.TextSize = 14.000
 
-UICorner_37.Parent = FrameGame
+UICorner_25.Parent = FrameGame
 
 FrameScript.Name = "FrameScript"
 FrameScript.Parent = Frames
@@ -784,7 +578,7 @@ Load.TextScaled = true
 Load.TextSize = 14.000
 Load.TextWrapped = true
 
-UICorner_38.Parent = Load
+UICorner_26.Parent = Load
 
 Execute.Name = "Execute"
 Execute.Parent = Buttons_4
@@ -798,7 +592,7 @@ Execute.TextScaled = true
 Execute.TextSize = 14.000
 Execute.TextWrapped = true
 
-UICorner_39.Parent = Execute
+UICorner_27.Parent = Execute
 
 Other_4.Name = "Other"
 Other_4.Parent = FrameScript
@@ -815,9 +609,9 @@ CloseButtonScript.TextScaled = true
 CloseButtonScript.TextSize = 14.000
 CloseButtonScript.TextWrapped = true
 
-UICorner_40.Parent = CloseButtonScript
+UICorner_28.Parent = CloseButtonScript
 
-UICorner_41.Parent = FrameScript
+UICorner_29.Parent = FrameScript
 
 FrameInformation.Name = "FrameInformation"
 FrameInformation.Parent = Frames
@@ -841,7 +635,7 @@ TextLabel.TextScaled = true
 TextLabel.TextSize = 14.000
 TextLabel.TextWrapped = true
 
-UICorner_42.Parent = TextLabel
+UICorner_30.Parent = TextLabel
 
 Other_5.Name = "Other"
 Other_5.Parent = FrameInformation
@@ -858,9 +652,9 @@ CloseButtonInformation.TextScaled = true
 CloseButtonInformation.TextSize = 14.000
 CloseButtonInformation.TextWrapped = true
 
-UICorner_43.Parent = CloseButtonInformation
+UICorner_31.Parent = CloseButtonInformation
 
-UICorner_44.Parent = FrameInformation
+UICorner_32.Parent = FrameInformation
 
 Menu.Name = "Menu"
 Menu.Parent = Main
@@ -889,7 +683,7 @@ Loaded_Success.TextScaled = true
 Loaded_Success.TextSize = 14.000
 Loaded_Success.TextWrapped = true
 
-UICorner_45.Parent = WelcomeFrame
+UICorner_33.Parent = WelcomeFrame
 
 Continue.Name = "Continue"
 Continue.Parent = WelcomeFrame
@@ -929,32 +723,32 @@ Close.Text = "Close"
 Close.TextColor3 = Color3.fromRGB(255, 255, 255)
 Close.TextSize = 14.000
 
-UICorner_46.Parent = Close
+UICorner_34.Parent = Close
 
-UICorner_47.Parent = Main
+UICorner_35.Parent = Main
 
 -- Scripts:
 
-local function QSUGFW_fake_script() -- UserID.UserIDChecker 
+local function MHJHAP_fake_script() -- UserID.UserIDChecker 
 	local script = Instance.new('LocalScript', UserID)
 
 	script.Parent.Text = (game.Players.LocalPlayer.UserId)
 end
-coroutine.wrap(QSUGFW_fake_script)()
-local function UAHC_fake_script() -- Username.UsernameChecker 
+coroutine.wrap(MHJHAP_fake_script)()
+local function ZKIGHC_fake_script() -- Username.UsernameChecker 
 	local script = Instance.new('LocalScript', Username)
 
 	script.Parent.Text = (game.Players.LocalPlayer.Name)
 end
-coroutine.wrap(UAHC_fake_script)()
-local function AOZNPAP_fake_script() -- CanHub_2.NameChecker 
+coroutine.wrap(ZKIGHC_fake_script)()
+local function OTED_fake_script() -- CanHub_2.NameChecker 
 	local script = Instance.new('LocalScript', CanHub_2)
 
 	script.Parent.Text = ("CanHub: SH")
 	
 end
-coroutine.wrap(AOZNPAP_fake_script)()
-local function TXAM_fake_script() -- Supported.SupportChecker 
+coroutine.wrap(OTED_fake_script)()
+local function PKURT_fake_script() -- Supported.SupportChecker 
 	local script = Instance.new('LocalScript', Supported)
 
 	game.Players.LocalPlayer:WaitForChild("Supported")
@@ -976,8 +770,8 @@ local function TXAM_fake_script() -- Supported.SupportChecker
 		end
 	end)
 end
-coroutine.wrap(TXAM_fake_script)()
-local function JHQY_fake_script() -- Scripts.Open/Close Handler 
+coroutine.wrap(PKURT_fake_script)()
+local function NAAOH_fake_script() -- Scripts.Open/Close Handler 
 	local script = Instance.new('LocalScript', Scripts)
 
 	local MainFrame = script.Parent.Parent
@@ -1003,8 +797,8 @@ local function JHQY_fake_script() -- Scripts.Open/Close Handler
 		end
 	end)
 end
-coroutine.wrap(JHQY_fake_script)()
-local function BEEWW_fake_script() -- ButtonCharacter.Manager 
+coroutine.wrap(NAAOH_fake_script)()
+local function AIYAMCK_fake_script() -- ButtonCharacter.Manager 
 	local script = Instance.new('LocalScript', ButtonCharacter)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1028,8 +822,8 @@ local function BEEWW_fake_script() -- ButtonCharacter.Manager
 		end
 	end)
 end
-coroutine.wrap(BEEWW_fake_script)()
-local function OAQI_fake_script() -- ButtonGame.Manager 
+coroutine.wrap(AIYAMCK_fake_script)()
+local function KZQW_fake_script() -- ButtonGame.Manager 
 	local script = Instance.new('LocalScript', ButtonGame)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1058,8 +852,8 @@ local function OAQI_fake_script() -- ButtonGame.Manager
 	end)
 		
 end
-coroutine.wrap(OAQI_fake_script)()
-local function LZJPOW_fake_script() -- ButtonUniversal.Manager 
+coroutine.wrap(KZQW_fake_script)()
+local function MHJVB_fake_script() -- ButtonUniversal.Manager 
 	local script = Instance.new('LocalScript', ButtonUniversal)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1085,8 +879,8 @@ local function LZJPOW_fake_script() -- ButtonUniversal.Manager
 		end
 	end)
 end
-coroutine.wrap(LZJPOW_fake_script)()
-local function BPGIFLT_fake_script() -- ButtonScript.Manager 
+coroutine.wrap(MHJVB_fake_script)()
+local function GYBD_fake_script() -- ButtonScript.Manager 
 	local script = Instance.new('LocalScript', ButtonScript)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1126,8 +920,8 @@ local function BPGIFLT_fake_script() -- ButtonScript.Manager
 		end
 	end)
 end
-coroutine.wrap(BPGIFLT_fake_script)()
-local function XDZB_fake_script() -- ButtonInformation.Manager 
+coroutine.wrap(GYBD_fake_script)()
+local function LNIYU_fake_script() -- ButtonInformation.Manager 
 	local script = Instance.new('LocalScript', ButtonInformation)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1155,8 +949,8 @@ local function XDZB_fake_script() -- ButtonInformation.Manager
 	end)
 		
 end
-coroutine.wrap(XDZB_fake_script)()
-local function MRSU_fake_script() -- FullBright.Inject 
+coroutine.wrap(LNIYU_fake_script)()
+local function FSFADSX_fake_script() -- FullBright.Inject 
 	local script = Instance.new('LocalScript', FullBright)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1173,8 +967,8 @@ local function MRSU_fake_script() -- FullBright.Inject
 	
 	end)
 end
-coroutine.wrap(MRSU_fake_script)()
-local function TGFW_fake_script() -- Aimbot.Inject 
+coroutine.wrap(FSFADSX_fake_script)()
+local function BDULQ_fake_script() -- Aimbot.Inject 
 	local script = Instance.new('LocalScript', Aimbot)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1191,8 +985,8 @@ local function TGFW_fake_script() -- Aimbot.Inject
 	
 	end)
 end
-coroutine.wrap(TGFW_fake_script)()
-local function PISE_fake_script() -- ChatBypasser.Inject 
+coroutine.wrap(BDULQ_fake_script)()
+local function ZMXKPY_fake_script() -- ChatBypasser.Inject 
 	local script = Instance.new('LocalScript', ChatBypasser)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1208,8 +1002,8 @@ local function PISE_fake_script() -- ChatBypasser.Inject
 		end
 	end)
 end
-coroutine.wrap(PISE_fake_script)()
-local function AVVFE_fake_script() -- InfinteYeild.Inject 
+coroutine.wrap(ZMXKPY_fake_script)()
+local function IYRQNGD_fake_script() -- InfinteYeild.Inject 
 	local script = Instance.new('LocalScript', InfinteYeild)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1225,8 +1019,8 @@ local function AVVFE_fake_script() -- InfinteYeild.Inject
 		end
 	end)
 end
-coroutine.wrap(AVVFE_fake_script)()
-local function WFPBE_fake_script() -- Esp.Inject 
+coroutine.wrap(IYRQNGD_fake_script)()
+local function EOQZ_fake_script() -- Esp.Inject 
 	local script = Instance.new('LocalScript', Esp)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1243,8 +1037,8 @@ local function WFPBE_fake_script() -- Esp.Inject
 	
 	end)
 end
-coroutine.wrap(WFPBE_fake_script)()
-local function GPYKJ_fake_script() -- Explorer.Inject 
+coroutine.wrap(EOQZ_fake_script)()
+local function IUCQNK_fake_script() -- Explorer.Inject 
 	local script = Instance.new('LocalScript', Explorer)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1261,8 +1055,8 @@ local function GPYKJ_fake_script() -- Explorer.Inject
 	
 	end)
 end
-coroutine.wrap(GPYKJ_fake_script)()
-local function KSBIVLR_fake_script() -- GamepassBypasser.Inject 
+coroutine.wrap(IUCQNK_fake_script)()
+local function BUCVQM_fake_script() -- GamepassBypasser.Inject 
 	local script = Instance.new('LocalScript', GamepassBypasser)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1279,8 +1073,8 @@ local function KSBIVLR_fake_script() -- GamepassBypasser.Inject
 	
 	end)
 end
-coroutine.wrap(KSBIVLR_fake_script)()
-local function RZBGD_fake_script() -- RejoinSameServer.Inject 
+coroutine.wrap(BUCVQM_fake_script)()
+local function JNIT_fake_script() -- RejoinSameServer.Inject 
 	local script = Instance.new('LocalScript', RejoinSameServer)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1297,8 +1091,8 @@ local function RZBGD_fake_script() -- RejoinSameServer.Inject
 	
 	end)
 end
-coroutine.wrap(RZBGD_fake_script)()
-local function IEJP_fake_script() -- AntiCheatBypasser.Inject 
+coroutine.wrap(JNIT_fake_script)()
+local function LAYKJMQ_fake_script() -- AntiCheatBypasser.Inject 
 	local script = Instance.new('LocalScript', AntiCheatBypasser)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1318,8 +1112,8 @@ local function IEJP_fake_script() -- AntiCheatBypasser.Inject
 	
 	end)
 end
-coroutine.wrap(IEJP_fake_script)()
-local function BHRD_fake_script() -- CloseButtonUniversal.CloseScript 
+coroutine.wrap(LAYKJMQ_fake_script)()
+local function GYYO_fake_script() -- CloseButtonUniversal.CloseScript 
 	local script = Instance.new('LocalScript', CloseButtonUniversal)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1347,43 +1141,8 @@ local function BHRD_fake_script() -- CloseButtonUniversal.CloseScript
 		end
 	end)
 end
-coroutine.wrap(BHRD_fake_script)()
-local function WJRVYH_fake_script() -- ButtonInformation_3.OpenFrame 
-	local script = Instance.new('LocalScript', ButtonInformation_3)
-
-	script.Parent.MouseButton1Click:Connect(function()
-		local injectbuttons = script.Parent.Parent.Parent.Parent["Inject Buttons"]
-		script.Parent.Visible = false
-		script.Parent.Parent["Info Page"].Visible = true
-		for _, child in ipairs(injectbuttons:GetChildren()) do
-	       child.Visible = false
-		end
-		if game.PlaceId == 286090429 then
-		else
-			game.Players.LocalPlayer:WaitForChild("Ping").Playing = true
-		end
-	end)
-end
-coroutine.wrap(WJRVYH_fake_script)()
-local function PBYPNK_fake_script() -- CloseButtonInfoPage.Close 
-	local script = Instance.new('LocalScript', CloseButtonInfoPage)
-
-	script.Parent.MouseButton1Click:Connect(function()
-		local injectbuttons = script.Parent.Parent.Parent.Parent.Parent["Inject Buttons"]
-		script.Parent.Parent.Parent["Button Information"].Visible = true
-		script.Parent.Parent.Visible = false
-		script.Parent.Parent.Parent.Parent.Parent.Visible = true
-		if game.PlaceId == 286090429 then
-		else
-			game.Players.LocalPlayer:WaitForChild("Ping").Playing = true
-		end
-		for _, child in ipairs(injectbuttons:GetChildren()) do
-			child.Visible = true
-		end
-	end)
-end
-coroutine.wrap(PBYPNK_fake_script)()
-local function CKYSI_fake_script() -- Speed.ChangeSpeed 
+coroutine.wrap(GYYO_fake_script)()
+local function IJUV_fake_script() -- Speed.ChangeSpeed 
 	local script = Instance.new('LocalScript', Speed)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1400,8 +1159,8 @@ local function CKYSI_fake_script() -- Speed.ChangeSpeed
 	
 	end)	
 end
-coroutine.wrap(CKYSI_fake_script)()
-local function APQO_fake_script() -- JumpPower.ChangeJumpPower 
+coroutine.wrap(IJUV_fake_script)()
+local function ONJDZO_fake_script() -- JumpPower.ChangeJumpPower 
 	local script = Instance.new('LocalScript', JumpPower)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1418,8 +1177,8 @@ local function APQO_fake_script() -- JumpPower.ChangeJumpPower
 	
 	end)
 end
-coroutine.wrap(APQO_fake_script)()
-local function JKOY_fake_script() -- HipHeight.ChangeHealth 
+coroutine.wrap(ONJDZO_fake_script)()
+local function EOJD_fake_script() -- HipHeight.ChangeHealth 
 	local script = Instance.new('LocalScript', HipHeight)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1436,8 +1195,8 @@ local function JKOY_fake_script() -- HipHeight.ChangeHealth
 		end
 	end)
 end
-coroutine.wrap(JKOY_fake_script)()
-local function VBCJ_fake_script() -- CloseButtonCharacter.CloseScript 
+coroutine.wrap(EOJD_fake_script)()
+local function VLEXBR_fake_script() -- CloseButtonCharacter.CloseScript 
 	local script = Instance.new('LocalScript', CloseButtonCharacter)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1464,15 +1223,15 @@ local function VBCJ_fake_script() -- CloseButtonCharacter.CloseScript
 			end
 	end)
 end
-coroutine.wrap(VBCJ_fake_script)()
-local function ANNWY_fake_script() -- InjectGame.Text 
+coroutine.wrap(VLEXBR_fake_script)()
+local function JUVF_fake_script() -- InjectGame.Text 
 	local script = Instance.new('LocalScript', InjectGame)
 
 	local GameName = game:GetService("MarketplaceService"):GetProductInfo(game.PlaceId).Name
 	script.Parent.Text = ("Inject "..GameName.." Script")
 end
-coroutine.wrap(ANNWY_fake_script)()
-local function LHJR_fake_script() -- CloseButtonGame.CloseScript 
+coroutine.wrap(JUVF_fake_script)()
+local function MNSJLYG_fake_script() -- CloseButtonGame.CloseScript 
 	local script = Instance.new('LocalScript', CloseButtonGame)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1499,8 +1258,8 @@ local function LHJR_fake_script() -- CloseButtonGame.CloseScript
 		end
 	end)
 end
-coroutine.wrap(LHJR_fake_script)()
-local function KVYDU_fake_script() -- Other_3.SupportHandler 
+coroutine.wrap(MNSJLYG_fake_script)()
+local function LNMRPZG_fake_script() -- Other_3.SupportHandler 
 	local script = Instance.new('LocalScript', Other_3)
 
 	--Value Setup:
@@ -1690,28 +1449,6 @@ local function KVYDU_fake_script() -- Other_3.SupportHandler
 			wait(1)
 			loadbutton.Text = "Injected"
 			loadstring(game:HttpGet("https://raw.githubusercontent.com/sinret/rbxscript.com-scripts-reuploads-/main/town", true))()
-			wait(1)
-			loadbutton.Text = ("Inject "..GameName.." Script")
-		end)
-	end
-	
-	--Notoriety:
-	
-	if game.PlaceId == 21532277 then
-		Support.Value = true
-	
-		loadbutton.MouseButton1Click:Connect(function()
-			game.Players.LocalPlayer:WaitForChild("Ping").Playing = true
-	
-	
-			loadbutton.Text = "Injecting in 3"
-			wait(1)
-			loadbutton.Text = "Injecting in 2"
-			wait(1)
-			loadbutton.Text = "Injecting in 1"
-			wait(1)
-			loadbutton.Text = "Injected"
-			loadstring(game:HttpGet('https://raw.githubusercontent.com/Ev01Discord/Blunted-X/main/Notoriety'))()
 			wait(1)
 			loadbutton.Text = ("Inject "..GameName.." Script")
 		end)
@@ -2025,6 +1762,470 @@ local function KVYDU_fake_script() -- Other_3.SupportHandler
 		end)
 	end
 	
+	------Notoriety Seperate Places---------
+	
+	if game.PlaceId == 21532277 then
+		Support.Value = true
+	
+		loadbutton.MouseButton1Click:Connect(function()
+			game.Players.LocalPlayer:WaitForChild("Ping").Playing = true
+	
+	
+			loadbutton.Text = "Injecting in 3"
+			wait(1)
+			loadbutton.Text = "Injecting in 2"
+			wait(1)
+			loadbutton.Text = "Injecting in 1"
+			wait(1)
+			loadbutton.Text = "Injected"
+			loadstring(game:HttpGet(("https://raw.githubusercontent.com/ValoddVSC/NtrietyGUI/main/ValoddVSC"), true))()
+			loadstring(game:HttpGet('https://raw.githubusercontent.com/Ev01Discord/Blunted-X/main/Notoriety'))()
+			wait(1)
+			loadbutton.Text = ("Inject "..GameName.." Script")
+		end)
+	end
+	
+	if game.PlaceId == 709461761 then
+		Support.Value = true
+	
+		loadbutton.MouseButton1Click:Connect(function()
+			game.Players.LocalPlayer:WaitForChild("Ping").Playing = true
+	
+	
+			loadbutton.Text = "Injecting in 3"
+			wait(1)
+			loadbutton.Text = "Injecting in 2"
+			wait(1)
+			loadbutton.Text = "Injecting in 1"
+			wait(1)
+			loadbutton.Text = "Injected"
+			loadstring(game:HttpGet(("https://raw.githubusercontent.com/ValoddVSC/NtrietyGUI/main/ValoddVSC"), true))()
+			loadstring(game:HttpGet('https://raw.githubusercontent.com/Ev01Discord/Blunted-X/main/Notoriety'))()
+			wait(1)
+			loadbutton.Text = ("Inject "..GameName.." Script")
+		end)
+	end
+	
+	if game.PlaceId == 1213821265 then
+		Support.Value = true
+	
+		loadbutton.MouseButton1Click:Connect(function()
+			game.Players.LocalPlayer:WaitForChild("Ping").Playing = true
+	
+	
+			loadbutton.Text = "Injecting in 3"
+			wait(1)
+			loadbutton.Text = "Injecting in 2"
+			wait(1)
+			loadbutton.Text = "Injecting in 1"
+			wait(1)
+			loadbutton.Text = "Injected"
+			loadstring(game:HttpGet(("https://raw.githubusercontent.com/ValoddVSC/NtrietyGUI/main/ValoddVSC"), true))()
+			loadstring(game:HttpGet('https://raw.githubusercontent.com/Ev01Discord/Blunted-X/main/Notoriety'))()
+			wait(1)
+			loadbutton.Text = ("Inject "..GameName.." Script")
+		end)
+	end
+	
+	if game.PlaceId == 1231303427 then
+		Support.Value = true
+	
+		loadbutton.MouseButton1Click:Connect(function()
+			game.Players.LocalPlayer:WaitForChild("Ping").Playing = true
+	
+	
+			loadbutton.Text = "Injecting in 3"
+			wait(1)
+			loadbutton.Text = "Injecting in 2"
+			wait(1)
+			loadbutton.Text = "Injecting in 1"
+			wait(1)
+			loadbutton.Text = "Injected"
+			loadstring(game:HttpGet(("https://raw.githubusercontent.com/ValoddVSC/NtrietyGUI/main/ValoddVSC"), true))()
+			loadstring(game:HttpGet('https://raw.githubusercontent.com/Ev01Discord/Blunted-X/main/Notoriety'))()
+			wait(1)
+			loadbutton.Text = ("Inject "..GameName.." Script")
+		end)
+	end
+	
+	if game.PlaceId == 1234408990 then
+		Support.Value = true
+	
+		loadbutton.MouseButton1Click:Connect(function()
+			game.Players.LocalPlayer:WaitForChild("Ping").Playing = true
+	
+	
+			loadbutton.Text = "Injecting in 3"
+			wait(1)
+			loadbutton.Text = "Injecting in 2"
+			wait(1)
+			loadbutton.Text = "Injecting in 1"
+			wait(1)
+			loadbutton.Text = "Injected"
+			loadstring(game:HttpGet(("https://raw.githubusercontent.com/ValoddVSC/NtrietyGUI/main/ValoddVSC"), true))()
+			loadstring(game:HttpGet('https://raw.githubusercontent.com/Ev01Discord/Blunted-X/main/Notoriety'))()
+			wait(1)
+			loadbutton.Text = ("Inject "..GameName.." Script")
+		end)
+	end
+	
+	if game.PlaceId == 1242009557 then
+		Support.Value = true
+	
+		loadbutton.MouseButton1Click:Connect(function()
+			game.Players.LocalPlayer:WaitForChild("Ping").Playing = true
+	
+	
+			loadbutton.Text = "Injecting in 3"
+			wait(1)
+			loadbutton.Text = "Injecting in 2"
+			wait(1)
+			loadbutton.Text = "Injecting in 1"
+			wait(1)
+			loadbutton.Text = "Injected"
+			loadstring(game:HttpGet(("https://raw.githubusercontent.com/ValoddVSC/NtrietyGUI/main/ValoddVSC"), true))()
+			loadstring(game:HttpGet('https://raw.githubusercontent.com/Ev01Discord/Blunted-X/main/Notoriety'))()
+			wait(1)
+			loadbutton.Text = ("Inject "..GameName.." Script")
+		end)
+	end
+	
+	if game.PlaceId == 1257393236 then
+		Support.Value = true
+	
+		loadbutton.MouseButton1Click:Connect(function()
+			game.Players.LocalPlayer:WaitForChild("Ping").Playing = true
+	
+	
+			loadbutton.Text = "Injecting in 3"
+			wait(1)
+			loadbutton.Text = "Injecting in 2"
+			wait(1)
+			loadbutton.Text = "Injecting in 1"
+			wait(1)
+			loadbutton.Text = "Injected"
+			loadstring(game:HttpGet(("https://raw.githubusercontent.com/ValoddVSC/NtrietyGUI/main/ValoddVSC"), true))()
+			loadstring(game:HttpGet('https://raw.githubusercontent.com/Ev01Discord/Blunted-X/main/Notoriety'))()
+			wait(1)
+			loadbutton.Text = ("Inject "..GameName.." Script")
+		end)
+	end
+	
+	if game.PlaceId == 1269513822 then
+		Support.Value = true
+	
+		loadbutton.MouseButton1Click:Connect(function()
+			game.Players.LocalPlayer:WaitForChild("Ping").Playing = true
+	
+	
+			loadbutton.Text = "Injecting in 3"
+			wait(1)
+			loadbutton.Text = "Injecting in 2"
+			wait(1)
+			loadbutton.Text = "Injecting in 1"
+			wait(1)
+			loadbutton.Text = "Injected"
+			loadstring(game:HttpGet(("https://raw.githubusercontent.com/ValoddVSC/NtrietyGUI/main/ValoddVSC"), true))()
+			loadstring(game:HttpGet('https://raw.githubusercontent.com/Ev01Discord/Blunted-X/main/Notoriety'))()
+			wait(1)
+			loadbutton.Text = ("Inject "..GameName.." Script")
+		end)
+	end
+	
+	if game.PlaceId == 1419274802 then
+		Support.Value = true
+	
+		loadbutton.MouseButton1Click:Connect(function()
+			game.Players.LocalPlayer:WaitForChild("Ping").Playing = true
+	
+	
+			loadbutton.Text = "Injecting in 3"
+			wait(1)
+			loadbutton.Text = "Injecting in 2"
+			wait(1)
+			loadbutton.Text = "Injecting in 1"
+			wait(1)
+			loadbutton.Text = "Injected"
+			loadstring(game:HttpGet(("https://raw.githubusercontent.com/ValoddVSC/NtrietyGUI/main/ValoddVSC"), true))()
+			loadstring(game:HttpGet('https://raw.githubusercontent.com/Ev01Discord/Blunted-X/main/Notoriety'))()
+			wait(1)
+			loadbutton.Text = ("Inject "..GameName.." Script")
+		end)
+	end
+	
+	if game.PlaceId == 1448835396 then
+		Support.Value = true
+	
+		loadbutton.MouseButton1Click:Connect(function()
+			game.Players.LocalPlayer:WaitForChild("Ping").Playing = true
+	
+	
+			loadbutton.Text = "Injecting in 3"
+			wait(1)
+			loadbutton.Text = "Injecting in 2"
+			wait(1)
+			loadbutton.Text = "Injecting in 1"
+			wait(1)
+			loadbutton.Text = "Injected"
+			loadstring(game:HttpGet(("https://raw.githubusercontent.com/ValoddVSC/NtrietyGUI/main/ValoddVSC"), true))()
+			loadstring(game:HttpGet('https://raw.githubusercontent.com/Ev01Discord/Blunted-X/main/Notoriety'))()
+			wait(1)
+			loadbutton.Text = ("Inject "..GameName.." Script")
+		end)
+	end
+	
+	if game.PlaceId == 1470780246 then
+		Support.Value = true
+	
+		loadbutton.MouseButton1Click:Connect(function()
+			game.Players.LocalPlayer:WaitForChild("Ping").Playing = true
+	
+	
+			loadbutton.Text = "Injecting in 3"
+			wait(1)
+			loadbutton.Text = "Injecting in 2"
+			wait(1)
+			loadbutton.Text = "Injecting in 1"
+			wait(1)
+			loadbutton.Text = "Injected"
+			loadstring(game:HttpGet(("https://raw.githubusercontent.com/ValoddVSC/NtrietyGUI/main/ValoddVSC"), true))()
+			loadstring(game:HttpGet('https://raw.githubusercontent.com/Ev01Discord/Blunted-X/main/Notoriety'))()
+			wait(1)
+			loadbutton.Text = ("Inject "..GameName.." Script")
+		end)
+	end
+	
+	if game.PlaceId == 1549086835 then
+		Support.Value = true
+	
+		loadbutton.MouseButton1Click:Connect(function()
+			game.Players.LocalPlayer:WaitForChild("Ping").Playing = true
+	
+	
+			loadbutton.Text = "Injecting in 3"
+			wait(1)
+			loadbutton.Text = "Injecting in 2"
+			wait(1)
+			loadbutton.Text = "Injecting in 1"
+			wait(1)
+			loadbutton.Text = "Injected"
+			loadstring(game:HttpGet(("https://raw.githubusercontent.com/ValoddVSC/NtrietyGUI/main/ValoddVSC"), true))()
+			loadstring(game:HttpGet('https://raw.githubusercontent.com/Ev01Discord/Blunted-X/main/Notoriety'))()
+			wait(1)
+			loadbutton.Text = ("Inject "..GameName.." Script")
+		end)
+	end
+	
+	if game.PlaceId == 2083817401 then
+		Support.Value = true
+	
+		loadbutton.MouseButton1Click:Connect(function()
+			game.Players.LocalPlayer:WaitForChild("Ping").Playing = true
+	
+	
+			loadbutton.Text = "Injecting in 3"
+			wait(1)
+			loadbutton.Text = "Injecting in 2"
+			wait(1)
+			loadbutton.Text = "Injecting in 1"
+			wait(1)
+			loadbutton.Text = "Injected"
+			loadstring(game:HttpGet(("https://raw.githubusercontent.com/ValoddVSC/NtrietyGUI/main/ValoddVSC"), true))()
+			loadstring(game:HttpGet('https://raw.githubusercontent.com/Ev01Discord/Blunted-X/main/Notoriety'))()
+			wait(1)
+			loadbutton.Text = ("Inject "..GameName.." Script")
+		end)
+	end
+	
+	if game.PlaceId == 2088934656 then
+		Support.Value = true
+	
+		loadbutton.MouseButton1Click:Connect(function()
+			game.Players.LocalPlayer:WaitForChild("Ping").Playing = true
+	
+	
+			loadbutton.Text = "Injecting in 3"
+			wait(1)
+			loadbutton.Text = "Injecting in 2"
+			wait(1)
+			loadbutton.Text = "Injecting in 1"
+			wait(1)
+			loadbutton.Text = "Injected"
+			loadstring(game:HttpGet(("https://raw.githubusercontent.com/ValoddVSC/NtrietyGUI/main/ValoddVSC"), true))()
+			loadstring(game:HttpGet('https://raw.githubusercontent.com/Ev01Discord/Blunted-X/main/Notoriety'))()
+			wait(1)
+			loadbutton.Text = ("Inject "..GameName.." Script")
+		end)
+	end
+	
+	if game.PlaceId == 2511620169 then
+		Support.Value = true
+	
+		loadbutton.MouseButton1Click:Connect(function()
+			game.Players.LocalPlayer:WaitForChild("Ping").Playing = true
+	
+	
+			loadbutton.Text = "Injecting in 3"
+			wait(1)
+			loadbutton.Text = "Injecting in 2"
+			wait(1)
+			loadbutton.Text = "Injecting in 1"
+			wait(1)
+			loadbutton.Text = "Injected"
+			loadstring(game:HttpGet(("https://raw.githubusercontent.com/ValoddVSC/NtrietyGUI/main/ValoddVSC"), true))()
+			loadstring(game:HttpGet('https://raw.githubusercontent.com/Ev01Discord/Blunted-X/main/Notoriety'))()
+			wait(1)
+			loadbutton.Text = ("Inject "..GameName.." Script")
+		end)
+	end
+	
+	if game.PlaceId == 2557847604 then
+		Support.Value = true
+	
+		loadbutton.MouseButton1Click:Connect(function()
+			game.Players.LocalPlayer:WaitForChild("Ping").Playing = true
+	
+	
+			loadbutton.Text = "Injecting in 3"
+			wait(1)
+			loadbutton.Text = "Injecting in 2"
+			wait(1)
+			loadbutton.Text = "Injecting in 1"
+			wait(1)
+			loadbutton.Text = "Injected"
+			loadstring(game:HttpGet(("https://raw.githubusercontent.com/ValoddVSC/NtrietyGUI/main/ValoddVSC"), true))()
+			loadstring(game:HttpGet('https://raw.githubusercontent.com/Ev01Discord/Blunted-X/main/Notoriety'))()
+			wait(1)
+			loadbutton.Text = ("Inject "..GameName.." Script")
+		end)
+	end
+	
+	if game.PlaceId == 2591382751 then
+		Support.Value = true
+	
+		loadbutton.MouseButton1Click:Connect(function()
+			game.Players.LocalPlayer:WaitForChild("Ping").Playing = true
+	
+	
+			loadbutton.Text = "Injecting in 3"
+			wait(1)
+			loadbutton.Text = "Injecting in 2"
+			wait(1)
+			loadbutton.Text = "Injecting in 1"
+			wait(1)
+			loadbutton.Text = "Injected"
+			loadstring(game:HttpGet(("https://raw.githubusercontent.com/ValoddVSC/NtrietyGUI/main/ValoddVSC"), true))()
+			loadstring(game:HttpGet('https://raw.githubusercontent.com/Ev01Discord/Blunted-X/main/Notoriety'))()
+			wait(1)
+			loadbutton.Text = ("Inject "..GameName.." Script")
+		end)
+	end
+	
+	if game.PlaceId == 2840013718 then
+		Support.Value = true
+	
+		loadbutton.MouseButton1Click:Connect(function()
+			game.Players.LocalPlayer:WaitForChild("Ping").Playing = true
+	
+	
+			loadbutton.Text = "Injecting in 3"
+			wait(1)
+			loadbutton.Text = "Injecting in 2"
+			wait(1)
+			loadbutton.Text = "Injecting in 1"
+			wait(1)
+			loadbutton.Text = "Injected"
+			loadstring(game:HttpGet(("https://raw.githubusercontent.com/ValoddVSC/NtrietyGUI/main/ValoddVSC"), true))()
+			loadstring(game:HttpGet('https://raw.githubusercontent.com/Ev01Discord/Blunted-X/main/Notoriety'))()
+			wait(1)
+			loadbutton.Text = ("Inject "..GameName.." Script")
+		end)
+	end
+	
+	if game.PlaceId == 5431100846 then
+		Support.Value = true
+	
+		loadbutton.MouseButton1Click:Connect(function()
+			game.Players.LocalPlayer:WaitForChild("Ping").Playing = true
+	
+	
+			loadbutton.Text = "Injecting in 3"
+			wait(1)
+			loadbutton.Text = "Injecting in 2"
+			wait(1)
+			loadbutton.Text = "Injecting in 1"
+			wait(1)
+			loadbutton.Text = "Injected"
+			loadstring(game:HttpGet(("https://raw.githubusercontent.com/ValoddVSC/NtrietyGUI/main/ValoddVSC"), true))()
+			loadstring(game:HttpGet('https://raw.githubusercontent.com/Ev01Discord/Blunted-X/main/Notoriety'))()
+			wait(1)
+			loadbutton.Text = ("Inject "..GameName.." Script")
+		end)
+	end
+	
+	if game.PlaceId == 5891659534 then
+		Support.Value = true
+	
+		loadbutton.MouseButton1Click:Connect(function()
+			game.Players.LocalPlayer:WaitForChild("Ping").Playing = true
+	
+	
+			loadbutton.Text = "Injecting in 3"
+			wait(1)
+			loadbutton.Text = "Injecting in 2"
+			wait(1)
+			loadbutton.Text = "Injecting in 1"
+			wait(1)
+			loadbutton.Text = "Injected"
+			loadstring(game:HttpGet(("https://raw.githubusercontent.com/ValoddVSC/NtrietyGUI/main/ValoddVSC"), true))()
+			loadstring(game:HttpGet('https://raw.githubusercontent.com/Ev01Discord/Blunted-X/main/Notoriety'))()
+			wait(1)
+			loadbutton.Text = ("Inject "..GameName.." Script")
+		end)
+	end
+	
+	if game.PlaceId == 6537140247 then
+		Support.Value = true
+	
+		loadbutton.MouseButton1Click:Connect(function()
+			game.Players.LocalPlayer:WaitForChild("Ping").Playing = true
+	
+	
+			loadbutton.Text = "Injecting in 3"
+			wait(1)
+			loadbutton.Text = "Injecting in 2"
+			wait(1)
+			loadbutton.Text = "Injecting in 1"
+			wait(1)
+			loadbutton.Text = "Injected"
+			loadstring(game:HttpGet(("https://raw.githubusercontent.com/ValoddVSC/NtrietyGUI/main/ValoddVSC"), true))()
+			loadstring(game:HttpGet('https://raw.githubusercontent.com/Ev01Discord/Blunted-X/main/Notoriety'))()
+			wait(1)
+			loadbutton.Text = ("Inject "..GameName.." Script")
+		end)
+	end
+	
+	if game.PlaceId == 10605039538 then
+		Support.Value = true
+	
+		loadbutton.MouseButton1Click:Connect(function()
+			game.Players.LocalPlayer:WaitForChild("Ping").Playing = true
+	
+	
+			loadbutton.Text = "Injecting in 3"
+			wait(1)
+			loadbutton.Text = "Injecting in 2"
+			wait(1)
+			loadbutton.Text = "Injecting in 1"
+			wait(1)
+			loadbutton.Text = "Injected"
+			loadstring(game:HttpGet(("https://raw.githubusercontent.com/ValoddVSC/NtrietyGUI/main/ValoddVSC"), true))()
+			loadstring(game:HttpGet('https://raw.githubusercontent.com/Ev01Discord/Blunted-X/main/Notoriety'))()
+			wait(1)
+			loadbutton.Text = ("Inject "..GameName.." Script")
+		end)
+	end
+	
 	if Support.Value == true then
 		button.Visible = true
 		button.Text = (""..GameName)
@@ -2034,8 +2235,8 @@ local function KVYDU_fake_script() -- Other_3.SupportHandler
 	
 	
 end
-coroutine.wrap(KVYDU_fake_script)()
-local function SWJNJ_fake_script() -- Execute.Execute 
+coroutine.wrap(LNMRPZG_fake_script)()
+local function QGGFDIG_fake_script() -- Execute.Execute 
 	local script = Instance.new('LocalScript', Execute)
 
 	local RunService = game:GetService("RunService")
@@ -2079,8 +2280,8 @@ local function SWJNJ_fake_script() -- Execute.Execute
 		end
 	end)
 end
-coroutine.wrap(SWJNJ_fake_script)()
-local function LZSHZXR_fake_script() -- CloseButtonScript.CloseScript 
+coroutine.wrap(QGGFDIG_fake_script)()
+local function FIVE_fake_script() -- CloseButtonScript.CloseScript 
 	local script = Instance.new('LocalScript', CloseButtonScript)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -2107,8 +2308,8 @@ local function LZSHZXR_fake_script() -- CloseButtonScript.CloseScript
 			end
 	end)
 end
-coroutine.wrap(LZSHZXR_fake_script)()
-local function PYJKKU_fake_script() -- CloseButtonInformation.CloseScript 
+coroutine.wrap(FIVE_fake_script)()
+local function CGDHJD_fake_script() -- CloseButtonInformation.CloseScript 
 	local script = Instance.new('LocalScript', CloseButtonInformation)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -2135,10 +2336,31 @@ local function PYJKKU_fake_script() -- CloseButtonInformation.CloseScript
 			end
 	end)
 end
-coroutine.wrap(PYJKKU_fake_script)()
-local function FEWS_fake_script() -- WelcomeFrame.Load Manager 
+coroutine.wrap(CGDHJD_fake_script)()
+local function OVVXSHD_fake_script() -- WelcomeFrame.Load Manager 
 	local script = Instance.new('LocalScript', WelcomeFrame)
 
+	
+	local function LoadValues()
+		if not game.Players.LocalPlayer:FindFirstChild("Supported") then
+			local Supported = Instance.new("BoolValue")
+	
+			Supported.Name = "Supported"
+			Supported.Value = false
+			Supported.Parent = game.Players.LocalPlayer
+		end
+	
+		if not game.Players.LocalPlayer:FindFirstChild("Ping") then
+			local Ping = Instance.new("Sound")
+	
+			Ping.Name = "Ping"
+			Ping.Volume = 0.5
+			Ping.SoundId = "rbxassetid://8617766509"
+			Ping.Parent = game.Players.LocalPlayer
+		end
+	end
+	
+	LoadValues()
 	
 	local RunService = game:GetService("RunService")
 	
@@ -2193,31 +2415,10 @@ local function FEWS_fake_script() -- WelcomeFrame.Load Manager
 		end)
 	end
 	
-	DoDiscordStuff()
-	
 	for _, child in ipairs(Button:GetChildren()) do
 		child.Visible = false
 	end
 	
-	
-	local function LoadValues()
-		if not game.Players.LocalPlayer:FindFirstChild("Supported") then
-			local Supported = Instance.new("BoolValue")
-	
-			Supported.Name = "Supported"
-			Supported.Value = false
-			Supported.Parent = game.Players.LocalPlayer
-		end
-	
-		if not game.Players.LocalPlayer:FindFirstChild("Ping") then
-			local Ping = Instance.new("Sound")
-	
-			Ping.Name = "Ping"
-			Ping.Volume = 0.5
-			Ping.SoundId = "rbxassetid://8617766509"
-			Ping.Parent = game.Players.LocalPlayer
-		end
-	end
 	
 	local function LoadWhiteList()
 		local frame2 = WelcomeFrame
@@ -2290,7 +2491,6 @@ local function FEWS_fake_script() -- WelcomeFrame.Load Manager
 		WelcomeFrame.Loaded_Success.Text = "Loading Data."	
 		wait(0.2)
 		WelcomeFrame.Loaded_Success.Text = "Loading Data.."
-		LoadValues()
 		wait(0.2)
 		WelcomeFrame.Loaded_Success.Text = "Loading Data..."
 		wait(0.2)
@@ -2324,9 +2524,11 @@ local function FEWS_fake_script() -- WelcomeFrame.Load Manager
 	--//Loading\\--
 	
 	LoadIntiate()
+	
+	DoDiscordStuff()
 end
-coroutine.wrap(FEWS_fake_script)()
-local function RVLVCW_fake_script() -- Close.LocalScript 
+coroutine.wrap(OVVXSHD_fake_script)()
+local function BCKRY_fake_script() -- Close.LocalScript 
 	local script = Instance.new('LocalScript', Close)
 
 	local MainFrame = script.Parent.Parent.Parent
@@ -2365,4 +2567,4 @@ local function RVLVCW_fake_script() -- Close.LocalScript
 		end
 	end)
 end
-coroutine.wrap(RVLVCW_fake_script)()
+coroutine.wrap(BCKRY_fake_script)()
