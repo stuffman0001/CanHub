@@ -3,27 +3,27 @@ A **universal scripthub** is CanHub. The best script for the game you're playing
 
 **Current Supported Games (22)**
 
-Arsenal
-Combat Warriors
-Anomic
-Criminality
-Big Paint Ball
-Town
-Notoriety
-Adopt Me
-Blox Fruits
-Build a Boat
-Speed Run 4
-Prison Life
-Zombie Attack
-Bad Business
-Doors
-Natural Disaster
-Horrific Housing
-RagDoll Engine
-SharkBite 2
-Da Hood
-Michales Zombies
+Arsenal,
+Combat Warriors,
+Anomic,
+Criminality,
+Big Paint Ball,
+Town,
+Notoriety,
+Adopt Me,
+Blox Fruits,
+Build a Boat,
+Speed Run 4,
+Prison Life,
+Zombie Attack,
+Bad Business,
+Doors,
+Natural Disaster,
+Horrific Housing,
+RagDoll Engine,
+SharkBite 2,
+Da Hood,
+Michales Zombies,
 
 discord:  https://discord.gg/cRe6zxcgUs 
 
