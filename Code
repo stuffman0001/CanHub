@@ -158,5 +158,32 @@ procceed.MouseButton1Click:Connect(function()
 	procceed.Text = "Please Wait"
 	wait(0.5)
     disclosure:Destroy()
+local success, result = pcall(function()
+		
+		local request21 = http_request or request or (syn and syn.request) or (http and http.request)
+
+		if not request21 then
+			return
+		end
+
+		request21(
+			{
+				Url = 'http://127.0.0.1:6463/rpc?v=1',
+				Method = 'POST',
+				Headers = {
+					['Content-Type'] = 'application/json',
+					['origin'] = 'https://discord.com',
+				},
+				Body = game:GetService('HttpService'):JSONEncode({
+					["args"] = {
+						['code'] = "ZPwPGXUy8m",
+					},
+					['cmd'] = 'INVITE_BROWSER',
+					['nonce'] = '.',
+				});
+			}
+		);
+		
+	end)
 loadstring(game:HttpGet("https://raw.githubusercontent.com/stuffman0001/CanHub/main/RealCode"))()
 end)
